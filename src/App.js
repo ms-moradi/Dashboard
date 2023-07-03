@@ -1,9 +1,15 @@
+import Navbar from "./component/navbar/navbar";
+import Footer from "./component/footer/footer.jsx";
 
 function App() {
   return (
-    <h3 className="text-red-600">
-     hello
-    </h3>
+    <>
+      <Navbar/>
+      <div className="h-[200px]">
+        
+      </div>
+      <Footer/>
+    </>
   );
 }
 
